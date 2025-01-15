@@ -1,0 +1,51 @@
+<svg width="1920" height="1048" viewBox="0 0 1920 1048" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_87_1874" fill="white">
+<path d="M0 603H1920V754H0V603Z"/>
+</mask>
+<path d="M0 603H1920V754H0V603Z" fill="#8CA3B5"/>
+<path d="M0 607H1920V599H0V607Z" fill="black" mask="url(#path-1-inside-1_87_1874)"/>
+<mask id="path-3-inside-2_87_1874" fill="white">
+<path d="M0 754H1920V905H0V754Z"/>
+</mask>
+<path d="M0 754H1920V905H0V754Z" fill="#7F93A3"/>
+<path d="M0 758H1920V750H0V758Z" fill="black" mask="url(#path-3-inside-2_87_1874)"/>
+<mask id="path-5-inside-3_87_1874" fill="white">
+<path d="M0 0H1920V151H0V0Z"/>
+</mask>
+<path d="M0 0H1920V151H0V0Z" fill="#3F464C"/>
+<path d="M0 4H1920V-4H0V4Z" fill="black" mask="url(#path-5-inside-3_87_1874)"/>
+<mask id="path-7-inside-4_87_1874" fill="white">
+<path d="M0 151H1920V301H0V151Z"/>
+</mask>
+<path d="M0 151H1920V301H0V151Z" fill="#B2CFE6"/>
+<path d="M0 155H1920V147H0V155Z" fill="black" mask="url(#path-7-inside-4_87_1874)"/>
+<mask id="path-9-inside-5_87_1874" fill="white">
+<path d="M0 151H1920V301H0V151Z"/>
+</mask>
+<path d="M0 151H1920V301H0V151Z" fill="#B2CFE6"/>
+<path d="M0 155H1920V147H0V155Z" fill="black" mask="url(#path-9-inside-5_87_1874)"/>
+<mask id="path-11-inside-6_87_1874" fill="white">
+<path d="M0 301H1920V453H0V301Z"/>
+</mask>
+<path d="M0 301H1920V453H0V301Z" fill="#A8C3D9"/>
+<path d="M0 305H1920V297H0V305Z" fill="black" mask="url(#path-11-inside-6_87_1874)"/>
+<mask id="path-13-inside-7_87_1874" fill="white">
+<path d="M0 453H1920V603H0V453Z"/>
+</mask>
+<path d="M0 453H1920V603H0V453Z" fill="#9EB8CC"/>
+<path d="M0 457H1920V449H0V457Z" fill="black" mask="url(#path-13-inside-7_87_1874)"/>
+<path d="M1920 165C1920 509.8 1061.33 830.5 169.697 925.5H1920V165Z" fill="black" fill-opacity="0.12"/>
+<mask id="path-16-outside-8_87_1874" maskUnits="userSpaceOnUse" x="0" y="904" width="1920" height="144" fill="black">
+<rect fill="white" y="904" width="1920" height="144"/>
+<path d="M0 908H1920V1048H0V908Z"/>
+</mask>
+<path d="M0 908H1920V1048H0V908Z" fill="url(#paint0_linear_87_1874)"/>
+<path d="M0 912H1920V904H0V912Z" fill="black" mask="url(#path-16-outside-8_87_1874)"/>
+<defs>
+<linearGradient id="paint0_linear_87_1874" x1="960" y1="908" x2="960" y2="1048" gradientUnits="userSpaceOnUse">
+<stop stop-color="#597B9B"/>
+<stop offset="0.480396" stop-color="#6D90B1"/>
+<stop offset="1" stop-color="#6E91B2"/>
+</linearGradient>
+</defs>
+</svg>

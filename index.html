@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AXOL</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+      body {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease 0.2s, visibility 0.2s ease 0.2s;
+      }
+
+      .loaded body {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.min.css?_v=20241029203933" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="menu-open-bg"></div>
+      <header class="header">
+        <div class="header__container">
+          <a href="../" class="header__logo"
+            ><img src="img/logo.png" alt="Logo"
+          /></a>
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" data-goto=".about" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".how" class="menu__link">How To buy</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".swap" class="menu__link"
+                    >How To Swap</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".join" class="menu__link">contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <a
+            href="https://dexscreener.com/sui/0x881bd6abac111854a32d766530c86cdba0bc3bfdc7cbb7c129862468bcba9b5c"
+            target="_blank"
+            class="header__button"
+            data-da=".menu__body, 767.98"
+          >
+            <span>BUY $AXOL</span>
+          </a>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="page__bubbles"></div>
+        <section class="page__hero hero">
+          <div class="hero__bg">
+            <img src="img/hero/bg.jpg" alt="Image" />
+            <img src="img/hero/bg-mob.jpg" alt="Image" />
+          </div>
+          <div class="hero__middle">
+            <img src="img/hero/middle.png" alt="Image" />
+          </div>
+          <div class="hero__front">
+            <div class="hero__container">
+              <div class="hero__social">
+                <div class="hero__social-column">
+                  <a
+                    href="https://x.com/axolonsui"
+                    target="_blank"
+                    class="hero__social-item"
+                  >
+                    <img src="img/social/x.svg" alt="X logo" />
+                  </a>
+                </div>
+                <div class="hero__social-column">
+                  <a
+                    href="https://t.me/AxolSui"
+                    target="_blank"
+                    class="hero__social-item mar-l"
+                  >
+                    <img src="img/social/tel.svg" alt="Telegram logo" />
+                  </a>
+                  <a
+                    href="https://dexscreener.com/sui/0x881bd6abac111854a32d766530c86cdba0bc3bfdc7cbb7c129862468bcba9b5c"
+                    target="_blank"
+                    class="hero__social-item"
+                  >
+                    <img src="img/social/dex.svg" alt="Dex Screener logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img src="img/hero/axol.gif" alt="Image" />
+              </div>
+              <a
+                href="https://dexscreener.com/sui/0x881bd6abac111854a32d766530c86cdba0bc3bfdc7cbb7c129862468bcba9b5c"
+                target="_blank"
+                class="hero__button"
+              >
+                <span>BUY $AXOL</span>
+              </a>
+            </div>
+            <div class="hero__corals">
+              <img src="img/hero/corals.png" alt="Image" />
+            </div>
+          </div>
+        </section>
+        <section class="page__about about" data-watch="navigator">
+          <div class="about__top">
+            <img src="img/hero/bottom.png" alt="Image" />
+          </div>
+          <div class="about__bg">
+            <img src="img/about/bg.jpg" alt="Image" />
+            <img src="img/about/bg-mob.jpg" alt="Image" />
+            <img src="img/about/middle.png" alt="Image" />
+          </div>
+          <div class="about__container">
+            <div class="about__image">
+              <img src="img/about/01.gif" alt="Image" />
+            </div>
+            <div class="about__content">
+              <h2 class="about__title">
+                <div class="about__title-body">
+                  <img src="img/about/title.png" alt="ABOUT" />
+                </div>
+              </h2>
+              <div class="about__text">
+                <div class="about__text-decor">
+                  <img src="img/about/decor.svg" alt="Decor" />
+                </div>
+                <div class="about__text-body">
+                  Meet AXOL, the cutest amphibian on SUI! AXOL is more than just
+                  an adorable mascot—it's a symbol of innovation in the crypto
+                  space. Our project is built on the SUI blockchain, offering
+                  users a fun and engaging way to explore decentralized finance.
+                  Join the AXOL community and dive into a world where technology
+                  and blockchain shape the future.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__how how" data-watch="navigator">
+          <div class="how__bg">
+            <img src="img/how/howBg.jpg" alt="Image" />
+          </div>
+          <div class="how__container">
+            <div class="how__top">
+              <h2 class="how__title">
+                <img src="img/how/title.png" alt="HOW TO BUY" />
+              </h2>
+              <div class="how__links">
+                <h3 class="how__links-title">AXOL Markets</h3>
+                <div class="how__links-items">
+                  <a
+                    href="https://app.cetus.zone/swap/?inputCurrency=0xae00e078a46616bf6e1e6fb673d18dcd2aa31319a07c9bc92f6063363f597b4e::axol::axol&outputCurrency=0x2::sui::sui"
+                    target="_blank"
+                    class="how__link"
+                  >
+                    <img src="img/how/links/01.png" alt="Logo" />
+                  </a>
+                  <a
+                    href="https://flowx.finance/swap?coinIn=0x2::sui::SUI&coinOut=0xae00e078a46616bf6e1e6fb673d18dcd2aa31319a07c9bc92f6063363f597b4e::AXOL::AXOL"
+                    target="_blank"
+                    class="how__link"
+                  >
+                    <img src="img/how/links/02.png" alt="Logo" />
+                  </a>
+                  <a
+                    href="https://app.turbos.finance/#/trade?input=0xae00e078a46616bf6e1e6fb673d18dcd2aa31319a07c9bc92f6063363f597b4e::axol::axol&output=0x2::sui::sui"
+                    target="_blank"
+                    class="how__link"
+                  >
+                    <img src="img/how/links/03.png" alt="Logo" />
+                  </a>
+                  <a
+                    href="https://www.ourbit.com/exchange/AXOL_USDT?inviteCode=Y2VHGP"
+                    target="_blank"
+                    class="how__link"
+                  >
+                    <img src="img/how/links/04.png" alt="Logo" />
+                  </a>
+                  <a
+                    href="https://ascendex.com/en/cashtrade-spottrading/usdt/axol?inviteCode=ASDH38HE"
+                    target="_blank"
+                    class="how__link"
+                  >
+                    <img src="img/how/links/05.png" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="how__items">
+              <article class="how__item">
+                Create a Suiet Wallet:
+                <a target="_blank" href="https://suiet.app/">suiet.app</a>
+              </article>
+              <article class="how__item">
+                Connect your wallet to:
+                <a target="_blank" href="https://www.rocketx.exchange/"
+                  >rocketx.exchange</a
+                >
+              </article>
+              <article class="how__item">
+                Put how much SOL or ETH you want to bridge
+              </article>
+              <article class="how__item">
+                Paste your Suiet wallet address in RocketX
+              </article>
+              <article class="how__item">
+                Wait 5-10 minutes for your Sui to arrive!
+              </article>
+            </div>
+            <div class="how__ca">
+              <div class="how__ca-info">
+                <span>Contract Address</span>
+                <span id="tokenValue"
+                  >0xae00e078a46616bf6e1e6fb673d18dcd2aa31319a07c9bc92f6063363f597b4e::AXOL::AXOL</span
+                >
+              </div>
+              <button type="button" class="how__ca-button copy-ca-btn">
+                <img src="img/how/copy.png" alt="Copy" />
+              </button>
+            </div>
+          </div>
+          <div class="how__front">
+            <img src="img/how/bottom.png" alt="Image" />
+          </div>
+        </section>
+        <section class="page__swap swap" data-watch="navigator">
+          <div class="swap__top">
+            <img src="img/swap/top.png" alt="Image" />
+          </div>
+          <div class="swap__body pl-func">
+            <div class="swap__content">
+              <h2
+                class="swap__title"
+                data-watch-threshold="0.85"
+                data-watch
+                data-watch-once
+              >
+                <img src="img/swap/title.png" alt="HOW TO SWAP" />
+              </h2>
+              <div class="swap__slider-box">
+                <div class="swap__slider-body">
+                  <div class="swap__slider swiper">
+                    <div class="swap__wrapper swiper-wrapper">
+                      <div class="swap__slide swiper-slide">
+                        <h3>STEP 1</h3>
+                        <p>
+                          Go to
+                          <a target="_blank" href="https://hop.ag/swap/SUI-AXOL"
+                            >hop.ag/swap/SUI-AXOL</a
+                          >
+                          and choose $AXOL.
+                        </p>
+                      </div>
+                      <div class="swap__slide swiper-slide">
+                        <h3>STEP 2</h3>
+                        <p>Confirm the amount and press swap.</p>
+                      </div>
+                      <div class="swap__slide swiper-slide">
+                        <h3>STEP 3</h3>
+                        <p>Become a member of the $AXOL family!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swap__slider-buttons">
+                    <button
+                      type="button"
+                      class="swap__slider-button swiper-button-prev"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="29"
+                        height="22"
+                        viewBox="0 0 29 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M10.3554 0.851562L10.3554 9.01823L28.5671 9.01823L28.6283 13.122L10.3554 13.122L10.3554 21.2682L0.147095 11.0599L10.3554 0.851562Z"
+                          fill="black"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      type="button"
+                      class="swap__slider-button swiper-button-next"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="29"
+                        height="22"
+                        viewBox="0 0 29 22"
+                        fill="none"
+                      >
+                        <path
+                          d="M18.6447 0.851562L18.6447 9.01823L0.433029 9.01823L0.371778 13.122L18.6447 13.122L18.6447 21.2682L28.853 11.0599L18.6447 0.851562Z"
+                          fill="black"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="swap__slider-image">
+                  <img src="img/swap/dec.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+            <div class="swap__image">
+              <img src="img/swap/01.png" alt="Image" />
+            </div>
+          </div>
+          <div class="swap__bottom">
+            <img src="img/swap/bottom.png" alt="Image" />
+          </div>
+        </section>
+        <section class="page__join join" data-watch="navigator">
+          <div class="join__decor"></div>
+          <div class="join__bg">
+            <img id="joinImg1" src="img/join/bg1.jpg" alt="Image" />
+            <img id="joinImg2" src="img/join/bg2.png" alt="Image" />
+            <img id="joinImg3" src="img/join/bg3.png" alt="Image" />
+          </div>
+          <div class="join__container">
+            <div
+              class="join__main main-join"
+              data-watch-threshold="0.6"
+              data-watch
+              data-watch-once
+            >
+              <div class="main-join__fish">
+                <img src="img/join/fish.png" alt="Image" />
+              </div>
+              <div class="main-join__body">
+                <h2 class="main-join__title">
+                  <img src="img/join/title.png" alt="JOIN US" />
+                </h2>
+                <div class="main-join__content">
+                  <div class="main-join__social">
+                    <div class="main-join__social-column">
+                      <a
+                        href="https://x.com/axolonsui"
+                        target="_blank"
+                        class="main-join__social-item"
+                      >
+                        <img src="img/social/x.svg" alt="X logo" />
+                      </a>
+                    </div>
+                    <div class="main-join__social-column">
+                      <a
+                        href="https://t.me/AxolSui"
+                        target="_blank"
+                        class="main-join__social-item mar-l"
+                      >
+                        <img src="img/social/tel.svg" alt="Telegram logo" />
+                      </a>
+                      <a
+                        href="https://dexscreener.com/sui/0x881bd6abac111854a32d766530c86cdba0bc3bfdc7cbb7c129862468bcba9b5c"
+                        target="_blank"
+                        class="main-join__social-item"
+                      >
+                        <img src="img/social/dex.svg" alt="Dex Screener logo" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="main-join__image">
+                    <img src="img/join/01.gif" alt="Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="join__footer footer-join"
+              data-watch-threshold="0.85"
+              data-watch
+            >
+              <div class="footer-join__top">
+                <div class="footer-join__menu">
+                  <a href="#" data-goto=".about" class="footer-join__menu-item"
+                    >About $AXOL</a
+                  >
+                  <a href="#" data-goto=".how" class="footer-join__menu-item"
+                    >How to buy</a
+                  >
+                  <a href="#" data-goto=".swap" class="footer-join__menu-item"
+                    >How to Swap</a
+                  >
+                </div>
+                <div class="footer-join__right">
+                  <div class="footer-join__social">
+                    <a
+                      href="https://t.me/AxolSui"
+                      target="_blank"
+                      class="footer-join__social-item"
+                    >
+                      <img src="img/join/tel.png" alt="Telegram" />
+                    </a>
+                    <a
+                      href="https://x.com/axolonsui"
+                      target="_blank"
+                      class="footer-join__social-item"
+                    >
+                      <img src="img/join/x.png" alt="Telegram" />
+                    </a>
+                    <a
+                      href="https://dexscreener.com/sui/0x881bd6abac111854a32d766530c86cdba0bc3bfdc7cbb7c129862468bcba9b5c"
+                      target="_blank"
+                      class="footer-join__social-item"
+                    >
+                      <img src="img/join/dex.png" alt="Telegram" />
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="footer-join__social-item"
+                    >
+                      <img src="img/join/dext.png" alt="Telegram" />
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="footer-join__social-item"
+                    >
+                      <img src="img/join/m.png" alt="Telegram" />
+                    </a>
+                  </div>
+                  <div class="footer-join__image">
+                    <img src="img/join/footer.png" alt="Image" />
+                  </div>
+                </div>
+              </div>
+              <div class="footer-join__bottom">
+                <div class="footer-join__copy">2024 © ALL RIGHTS RESERVED</div>
+                <a
+                  href="https://t.me/osnovoco"
+                  target="_blank"
+                  class="footer-join__osnovo"
+                >
+                  <span>Designed by</span>
+                  <img src="img/join/osnovo.svg" alt="Osnovo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container"></div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20241029203933"></script>
+  </body>
+</html>
